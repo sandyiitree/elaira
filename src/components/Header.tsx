@@ -30,7 +30,7 @@ const Header: React.FC = () => {
           <a href="#" className="text-2xl font-bold flex items-center">
             <img 
               src={logo}
-              alt="Amor Villas Logo" 
+              alt="Elaira Residences Logo" 
               className={`h-10 w-auto transition-all duration-300 ${isScrolled ? '' : ''}`} 
               style={{ maxHeight: isScrolled ? '40px' : '56px', transition: 'max-height 0.3s' }}
             />

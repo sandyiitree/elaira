@@ -12,9 +12,9 @@ const About: React.FC = () => {
   const isInView = useInView(sectionRef, { threshold: 0.2 });
   
   const stats: StatItem[] = [
-    { value: 8, label: '8.5 Acres Land', suffix: '+' },
-    { value: 80, label: 'Bespoke Villas', suffix: '' },
-    { value: 34, label: 'Amenities', suffix: '+' },
+    { value: 5, label: '5.6 Acres Land', suffix: '+' },
+    { value: 260, label: 'Luxury Apartments', suffix: '' },
+    { value: 32, label: 'Floors', suffix: '' },
     { value: 5, label: 'Star Club House', suffix: '★' }
   ];
 
@@ -28,14 +28,14 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className={`transition-opacity duration-1000 ${isInView ? 'opacity-100' : 'opacity-0'}`}>
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
-              Welcome to <span className="font-bold" style={{background: 'linear-gradient(313deg, #8c5438 0%, #c76a43 50%, #f3b79e 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>AMOR Villas</span>
+              Welcome to <span className="font-bold" style={{background: 'linear-gradient(313deg, #8c5438 0%, #c76a43 50%, #f3b79e 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Elaira Residences</span>
             </h2>
             <div className="w-20 h-1 mb-6" style={{background: 'linear-gradient(313deg, #8c5438 0%, #c76a43 50%, #f3b79e 100%)'}}></div>
             <p className="text-white/80 mb-6 leading-relaxed">
-            The finest homes await you at Amor Villas, a new luxury community where elegance meets affordability.
+            The finest homes await you at Elaira Residences, a new luxury community where elegance meets class.
             </p>
             <p className="text-white/80 mb-8 leading-relaxed">
-            Thoughtfully designed spaces and exceptional attention to detail make Amor Villas a place you'll admire and a home you'll truly love.
+            Thoughtfully designed spaces and exceptional attention to detail make Elaira Residences a place you'll admire and a home you'll truly love.
             </p>
             <a 
               href="#amenities" 

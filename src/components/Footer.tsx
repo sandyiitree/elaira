@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-6">AMOR <span className="text-[#D26A3B]">Villas</span></h3>
+            <h3 className="text-xl font-bold mb-6">Elaira <span className="text-[#D26A3B]">Residences</span></h3>
             <p className="text-white/80 mb-6">
               Experience luxurious living at its finest with panoramic views and world-class amenities.
             </p>
@@ -77,16 +77,12 @@ const Footer: React.FC = () => {
         <div className="border-t border-[#3A3835] mt-12 pt-8" style={{paddingBottom: '30px'}}>
           <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-8">
             <div className="flex flex-col items-center md:items-start w-full md:w-auto">
-              <img src={developerLogo} alt="CCS Infratech Logo" style={{width: 'auto', height: '3rem'}} />
-              <p className="text-white/60 text-sm mt-2 md:mt-4">© {currentYear} CCS Infratech. All rights reserved.</p>
+              <img src={developerLogo} alt="CCS Infratech Logo" style={{width: 'auto', height: '6rem'}} />
+              
             </div>
             <div className="flex flex-col items-center md:items-end w-full md:w-auto">
-              <span className="font-bold text-base md:text-lg text-white">UP RERA REGISTRATION NO.</span>
-              <span className="font-bold text-base md:text-lg text-white">UPRERAPRJ389222/03/2025</span>
-              <span className="font-bold text-base md:text-lg text-white">Launch Date: 29 March</span>
-              <span className="text-white/60 text-xs md:text-sm mt-2">Website: <a href="https://www.up-rera.in" className="underline hover:text-[#D26A3B]">www.up-rera.in</a></span>
-              <span className="text-white/60 text-xs md:text-sm">A/c Name: CCS Infratech Collection Account for AMOR | A/c No. 0294002900000154</span>
-              <span className="text-white/60 text-xs md:text-sm">Bank & Branch: Punjab National Bank, Hazratganj | IFSC: PUNB0029400</span>
+              <span className="font-bold text-base md:text-lg text-white">Haryana RERA REGISTRATION NO.</span>
+              <span className="font-bold text-base md:text-lg text-white">GGM/917/649/2025/20 DATED 20.02.2025</span>
             </div>
           </div>
         </div>

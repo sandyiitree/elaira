@@ -1,12 +1,12 @@
 import React, { useState, useRef } from 'react';
 import { useInView } from '../hooks/useInView';
 import { X } from 'lucide-react';
-import img1 from '../assets/images/11d39732-7587-46e1-8b81-9a29b2c17b02.jpg';
-import img2 from '../assets/images/5e4b2e95-1970-438c-a193-c3e9e28cb420.jpg';
-import img3 from '../assets/images/ab0948ca-e260-4a89-bec9-9e19650b97a0.jpg';
-import img4 from '../assets/images/b8a66eea-91ca-4180-b0c6-d0a86e5f42e8.jpg';
-import img5 from '../assets/images/0bf1a608-40e9-4f27-be93-e97c49517d82.jpg';
-import img6 from '../assets/images/3c231901-6023-48f8-9ffe-45a5c8f7e87b.jpg';
+import img1 from '../assets/images/V05.jpg';
+import img2 from '../assets/images/V06-B.jpg';
+import img3 from '../assets/images/V13A.jpg';
+import img4 from '../assets/images/V15-A.jpg';
+import img5 from '../assets/images/V08.jpg';
+import img6 from '../assets/images/V06-A.jpg';
 
 const Gallery: React.FC = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -17,32 +17,32 @@ const Gallery: React.FC = () => {
     {
       src: img1,
       alt: "Gallery image 1",
-      title: "Rooftop Restaurant"
+      title: "Outdoor Exercise Area"
     },
     {
       src: img2,
       alt: "Gallery image 2",
-      title: "Sports Area"
+      title: "Outdoor Lawn"
     },
     {
       src: img3,
       alt: "Gallery image 3",
-      title: "Banquet Hall"
+      title: "Swimming Pool"
     },
     {
       src: img4,
       alt: "Gallery image 4",
-      title: "Gym"
+      title: "Lobby Area"
     },
     {
       src: img5,
       alt: "Gallery image 5",
-      title: "Outdoor Exercise Area"
+      title: "Lift Lobby"
     },
     {
       src: img6,
       alt: "Gallery image 6",
-      title: "Kids Play Area"
+      title: "Walking Path"
     }
   ];
 
@@ -71,7 +71,7 @@ const Gallery: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
-            Experience <span className="font-bold" style={{background: 'linear-gradient(313deg, #8c5438 0%, #c76a43 50%, #f3b79e 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>AMOR</span>
+            Experience <span className="font-bold" style={{background: 'linear-gradient(313deg, #8c5438 0%, #c76a43 50%, #f3b79e 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Elaira Residences</span>
           </h2>
           <div className="w-20 h-1 mx-auto mb-6" style={{background: 'linear-gradient(313deg, #8c5438 0%, #c76a43 50%, #f3b79e 100%)'}}></div>
           <p className="text-white/80 max-w-2xl mx-auto">

@@ -20,10 +20,12 @@ const Hero: React.FC = () => {
     <section 
       id="home"
       ref={heroRef}
-      className="relative h-screen bg-cover bg-center flex items-center 
-             bg-[url('https://whatsappwaitwhiz.s3.eu-north-1.amazonaws.com/amor-desktop.jpeg')] 
-             md:bg-[url('https://whatsappwaitwhiz.s3.eu-north-1.amazonaws.com/amor-desktop.jpeg')] 
-             bg-[url('https://whatsappwaitwhiz.s3.eu-north-1.amazonaws.com/amor-mobile.jpeg')]"
+      className="
+      relative h-screen bg-cover bg-center flex items-center
+      bg-[url('https://waitwhiz.s3.ap-south-1.amazonaws.com/digital/Home+page+creative-862x1532.jpg')]
+      md:bg-[url('https://waitwhiz.s3.ap-south-1.amazonaws.com/digital/Home+page+creative-1600x899.jpg')]
+    "
+    
     >
       <div className="absolute inset-0 bg-[#1A1815] bg-opacity-0"></div>
       <div className="container mx-auto px-4 relative z-10">

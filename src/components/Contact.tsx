@@ -97,7 +97,7 @@ const Contact: React.FC = () => {
           </h2>
           <div className="w-20 h-1 mx-auto mb-6" style={{background: 'linear-gradient(313deg, #8c5438 0%, #c76a43 50%, #f3b79e 100%)'}}></div>
           <p className="text-white/80 max-w-2xl mx-auto">
-            Interested in experiencing luxury living at AMOR? Get in touch with our sales team today.
+            Interested in experiencing luxury living at Elaira Residences? Get in touch with our sales team today.
           </p>
         </div>
 

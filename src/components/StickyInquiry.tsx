@@ -53,7 +53,7 @@ const StickyInquiry: React.FC = () => {
     }
   };
 
-  const phoneNumber = '+914071242692';
+  const phoneNumber = '+919518800700';
 
   return (
     <>

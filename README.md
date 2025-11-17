@@ -1,6 +1,6 @@
-# AMOR Villas - Luxury Real Estate Website
+# Elaira Residences - Luxury Real Estate Website
 
-A modern, responsive luxury real estate website for AMOR Villas with integrated lead management system via Anarock API.
+A modern, responsive luxury real estate website for Elaira Residences with integrated lead management system via Anarock API.
 
 ## Features
 
