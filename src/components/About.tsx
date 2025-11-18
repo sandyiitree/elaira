@@ -13,8 +13,8 @@ const About: React.FC = () => {
   
   const stats: StatItem[] = [
     { value: 5, label: '5.6 Acres Land', suffix: '+' },
-    { value: 260, label: 'Luxury Apartments', suffix: '' },
-    { value: 32, label: 'Floors', suffix: '' },
+    { value: 290, label: 'Luxury Apartments', suffix: '' },
+    { value: 34, label: 'Floors', suffix: '' },
     { value: 5, label: 'Star Club House', suffix: '★' }
   ];
 
